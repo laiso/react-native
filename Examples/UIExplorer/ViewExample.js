@@ -20,6 +20,7 @@ var {
   StyleSheet,
   Text,
   View,
+  SegmentedControlIOS,
 } = React;
 
 var styles = StyleSheet.create({
@@ -35,13 +36,11 @@ exports.description = 'Basic building block of all UI.';
 exports.displayName = 'ViewExample';
 exports.examples = [
   {
-    title: 'Background Color',
+    title: 'UISegmentedControlIOS',
     render: function() {
       return (
-        <View style={{backgroundColor: '#527FE4', padding: 5}}>
-          <Text style={{fontSize: 11}}>
-            Blue background
-          </Text>
+        <View>
+            <SegmentedControlIOS />
         </View>
       );
     },

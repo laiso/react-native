@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		000E6CEB1AB0E980000CDF4D /* RCTSourceCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E6CEA1AB0E980000CDF4D /* RCTSourceCode.m */; };
 		00C1A2B31AC0B7E000E89A1C /* RCTDevMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C1A2B21AC0B7E000E89A1C /* RCTDevMenu.m */; };
+		07CEC94F1AC8F0F700F2AB60 /* RCTUISegmentedControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CEC94E1AC8F0F700F2AB60 /* RCTUISegmentedControlManager.m */; };
 		134FCB361A6D42D900051CC8 /* RCTSparseArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BEE46D1A6D19BC00B5863B /* RCTSparseArray.m */; };
 		134FCB3D1A6E7F0800051CC8 /* RCTContextExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 134FCB3A1A6E7F0800051CC8 /* RCTContextExecutor.m */; };
 		134FCB3E1A6E7F0800051CC8 /* RCTWebViewExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 134FCB3C1A6E7F0800051CC8 /* RCTWebViewExecutor.m */; };
@@ -79,6 +80,8 @@
 		000E6CEA1AB0E980000CDF4D /* RCTSourceCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTSourceCode.m; sourceTree = "<group>"; };
 		00C1A2B11AC0B7E000E89A1C /* RCTDevMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTDevMenu.h; sourceTree = "<group>"; };
 		00C1A2B21AC0B7E000E89A1C /* RCTDevMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTDevMenu.m; sourceTree = "<group>"; };
+		07CEC94D1AC8F0F700F2AB60 /* RCTUISegmentedControlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTUISegmentedControlManager.h; sourceTree = "<group>"; };
+		07CEC94E1AC8F0F700F2AB60 /* RCTUISegmentedControlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTUISegmentedControlManager.m; sourceTree = "<group>"; };
 		13442BF21AA90E0B0037E5B0 /* RCTAnimationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTAnimationType.h; sourceTree = "<group>"; };
 		13442BF31AA90E0B0037E5B0 /* RCTPointerEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTPointerEvents.h; sourceTree = "<group>"; };
 		13442BF41AA90E0B0037E5B0 /* RCTViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTViewControllerProtocol.h; sourceTree = "<group>"; };
@@ -283,6 +286,8 @@
 				14F362081AABD06A001CE568 /* RCTSwitch.m */,
 				14F362091AABD06A001CE568 /* RCTSwitchManager.h */,
 				14F3620A1AABD06A001CE568 /* RCTSwitchManager.m */,
+				07CEC94D1AC8F0F700F2AB60 /* RCTUISegmentedControlManager.h */,
+				07CEC94E1AC8F0F700F2AB60 /* RCTUISegmentedControlManager.m */,
 				137327DF1AA5CF210034F82E /* RCTTabBar.h */,
 				137327E01AA5CF210034F82E /* RCTTabBar.m */,
 				137327E11AA5CF210034F82E /* RCTTabBarItem.h */,
@@ -494,6 +499,7 @@
 				13C156061AB1A2840079392D /* RCTWebViewManager.m in Sources */,
 				58114A161AAE854800E7D092 /* RCTPicker.m in Sources */,
 				137327E81AA5CF210034F82E /* RCTTabBarItem.m in Sources */,
+				07CEC94F1AC8F0F700F2AB60 /* RCTUISegmentedControlManager.m in Sources */,
 				13E067551A70F44B002CDEE1 /* RCTShadowView.m in Sources */,
 				58114A171AAE854800E7D092 /* RCTPickerManager.m in Sources */,
 				13B0801A1A69489C00A75B9A /* RCTNavigator.m in Sources */,
